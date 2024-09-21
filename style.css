@@ -17,6 +17,76 @@ body{
     margin-right: 9px;
     row-gap: 35px;
 }
+
+
+.contact-form {
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto; /* Center the form */
+}
+
+.contact_me {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact_me p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000; /* YouTube red */
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus, 
+.contact-form textarea:focus {
+    border-color: #ff0000; /* Change border color on focus */
+    outline: none;
+}
+
+.file-upload {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.file-upload label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form button {
+    padding: 12px 20px;
+    background-color: #ff0000; /* YouTube red */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+.submit {
+    text-align: right;
+}
+
+
 @media (max-width:1200px){
 .content {
     grid-template-columns: 1fr 1fr;
